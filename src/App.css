@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: rgb(235, 235, 235);
+}
+.outer{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 3rem;
+  flex-direction: column;
+  background-color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 3rem;
+  max-width: 50rem;
+}
+.option{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 20px;
+  border-radius: 3rem;
+  border-width: 0px;
+  background-color: white;
+}
+.qstn{
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-width: 0px;
+  font-size: 25px;
+  background-color: white;
+}
+.option:focus {
+  background-color: rgb(193, 218, 255);
+}
+.option:hover {
+  background-color: rgb(193, 218, 255);
+}
+.inner{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.btn{
+  height: 3rem;
+  width: 8rem;
+  border-radius: 2rem;
+  background-color: white;
+  border-width: 0px;
+}
+.btn:hover{
+  background-color: rgb(193, 218, 255);
+}
+.output{
+  margin: 0 auto;
+  margin-top: 3rem;
+  background-color: white;
+  border-width: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 8rem;
+  border-radius: 2rem;
+  font-size: large;
+}
